@@ -80,15 +80,15 @@ extension ViewController: UITableViewDelegate {
            tableView.deselectRow(at: indexPath, animated: true)
        }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-           if segue.identifier == "showDetailController" {
-               let cell = sender as! UITableViewCell
-               if let indexPath = tableView.indexPath(for: cell) {
-                   let nameController = segue.destination as! DetailViewController
-                tableView.deselectRow(at: indexPath, animated: true)
-               }
-           }
-       }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//           if segue.identifier == "showDetailController" {
+//               let cell = sender as! DetailTableCell
+//               if let indexPath = tableView.indexPath(for: cell) {
+//                let nameController. = segue.destination as! DetailViewController
+//                tableView.deselectRow(at: indexPath, animated: true)
+//               }
+//           }
+//       }
 }
 
 
