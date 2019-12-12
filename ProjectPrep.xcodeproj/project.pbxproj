@@ -13,6 +13,14 @@
 		42E98E4123A0379100679394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E98E3F23A0379100679394 /* Main.storyboard */; };
 		42E98E4323A0379400679394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E98E4223A0379400679394 /* Assets.xcassets */; };
 		42E98E4623A0379400679394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E98E4423A0379400679394 /* LaunchScreen.storyboard */; };
+		42E98E5523A1366400679394 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E98E5423A1366400679394 /* UserTableViewCell.xib */; };
+		42E98E5723A1389F00679394 /* GitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E5623A1389F00679394 /* GitUser.swift */; };
+		42E98E5923A13A7800679394 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E5823A13A7800679394 /* UserTableViewCell.swift */; };
+		42E98E5B23A1433600679394 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E5A23A1433600679394 /* ViewModel.swift */; };
+		42E98E5D23A151B900679394 /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E5C23A151B900679394 /* GitService.swift */; };
+		42E98E5F23A1635900679394 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E5E23A1635900679394 /* TableViewCell.swift */; };
+		42E98E6123A255A200679394 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E6023A255A200679394 /* DetailViewController.swift */; };
+		42E98E6323A25C4700679394 /* DetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E98E6223A25C4700679394 /* DetailTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		42E98E4223A0379400679394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E98E4523A0379400679394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42E98E4723A0379400679394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E98E5423A1366400679394 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		42E98E5623A1389F00679394 /* GitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUser.swift; sourceTree = "<group>"; };
+		42E98E5823A13A7800679394 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		42E98E5A23A1433600679394 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		42E98E5C23A151B900679394 /* GitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitService.swift; sourceTree = "<group>"; };
+		42E98E5E23A1635900679394 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		42E98E6023A255A200679394 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		42E98E6223A25C4700679394 /* DetailTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 		42E98E4D23A0380900679394 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42E98E5623A1389F00679394 /* GitUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +99,10 @@
 		42E98E4E23A0381200679394 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				42E98E5423A1366400679394 /* UserTableViewCell.xib */,
+				42E98E5823A13A7800679394 /* UserTableViewCell.swift */,
+				42E98E5E23A1635900679394 /* TableViewCell.swift */,
+				42E98E6223A25C4700679394 /* DetailTableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +110,7 @@
 		42E98E4F23A0383500679394 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				42E98E5A23A1433600679394 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -97,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				42E98E3D23A0379100679394 /* ViewController.swift */,
+				42E98E6023A255A200679394 /* DetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -104,6 +127,7 @@
 		42E98E5223A0385300679394 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				42E98E5C23A151B900679394 /* GitService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -175,6 +199,7 @@
 			files = (
 				42E98E4623A0379400679394 /* LaunchScreen.storyboard in Resources */,
 				42E98E4323A0379400679394 /* Assets.xcassets in Resources */,
+				42E98E5523A1366400679394 /* UserTableViewCell.xib in Resources */,
 				42E98E4123A0379100679394 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E98E6123A255A200679394 /* DetailViewController.swift in Sources */,
 				42E98E3E23A0379100679394 /* ViewController.swift in Sources */,
+				42E98E5F23A1635900679394 /* TableViewCell.swift in Sources */,
+				42E98E6323A25C4700679394 /* DetailTableCell.swift in Sources */,
 				42E98E3A23A0379100679394 /* AppDelegate.swift in Sources */,
 				42E98E3C23A0379100679394 /* SceneDelegate.swift in Sources */,
+				42E98E5723A1389F00679394 /* GitUser.swift in Sources */,
+				42E98E5D23A151B900679394 /* GitService.swift in Sources */,
+				42E98E5B23A1433600679394 /* ViewModel.swift in Sources */,
+				42E98E5923A13A7800679394 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
